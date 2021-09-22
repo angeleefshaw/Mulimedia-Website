@@ -23,9 +23,9 @@ module.exports = function(app) {
       });
     
     // route loads contact.html
-    app.get("/contact", function(req, res) {
-        res.sendFile(path.join(__dirname, "../public/contact.html"));
-    });
+    // app.get("/contact", function(req, res) {
+    //     res.sendFile(path.join(__dirname, "../public/contact.html"));
+    // });
   
   };
   
